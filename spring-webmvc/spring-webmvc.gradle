@@ -52,6 +52,7 @@ dependencies {
 	testImplementation(testFixtures(project(":spring-context")))
 	testImplementation(testFixtures(project(":spring-core")))
 	testImplementation(testFixtures(project(":spring-web")))
+    testImplementation(project(":spring-test"))
 	testImplementation("commons-io:commons-io")
 	testImplementation("io.projectreactor:reactor-core")
 	testImplementation("io.reactivex.rxjava3:rxjava")
